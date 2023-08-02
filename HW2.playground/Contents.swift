@@ -80,11 +80,11 @@ print("\(yearsPassed) years, \(monthPassed) months, \(daysPassed) days and \(sec
 // Квартал рождения
 if monthOfBirth <= 3 {
     print("Я родился в первом квартале \n")
-} else if monthOfBirth <= 6 {
+} else if monthOfBirth > 3 && monthOfBirth <= 6 {
     print("Я родился во втором квартале \n")
-} else if monthOfBirth <= 9 {
+} else if monthOfBirth > 6 && monthOfBirth <= 9 {
     print("Я родился в третьем квартале \n")
-} else if monthOfBirth <= 12 {
+} else if monthOfBirth > 9 && monthOfBirth <= 12 {
     print("Я родился в четвертом квартале \n")
 }
 
